@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import './Header.module.css'
+import style from './Header.module.css'
 import logoReact from '../img/react-logo.png'
 
 function Header({imgDescription, title}) {
@@ -7,7 +7,7 @@ function Header({imgDescription, title}) {
     return (
     <header>
         <h1>{title}</h1>
-        <img src={logoReact} alt={imgDescription} />
+        <img id={style.reactIcon} src={logoReact} alt={imgDescription}/>
     </header>
     )
 }
