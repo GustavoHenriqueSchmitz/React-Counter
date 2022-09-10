@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#counter {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 40% 1fr;
+  height: 68%;
+}
+  
+.arrows {
+  height: 50%;
+  width: 40%;
+  min-width: 280px;
+  cursor: pointer;
+}
+  
+#counterArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: calc(10px + 6vmin);
+  margin: 0 8%;
+  height: 70%;
+  width: 50%;
+  min-width: 376px;
+  border-radius: 80%;
+}

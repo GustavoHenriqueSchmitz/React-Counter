@@ -7,39 +7,10 @@
 
 body {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   color: white;
 }
 
 #counter-container {
     height: 100vh;
-}
-
-#counter {
-  display: grid;
-  place-items: center;
-  grid-template-columns: 30% 1fr 30%;
-  height: 68%;
-}
-
-.arrow-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.arrows {
-  height: 50%;
-  width: 65%;
-  min-width: 300px;
-}
-
-#counter-area {
-  background-color: white;
-  height: 60%;
-  width: 60%;
-  min-width: 376px;
-  border-radius: 80%;
 }
