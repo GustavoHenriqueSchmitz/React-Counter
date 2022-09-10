@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import style from './Header.module.css'
-import logoReact from '../img/react-logo.png'
+import logoReact from '../img/icons/react-logo.png'
 
 function Header({imgDescription, title}) {
 

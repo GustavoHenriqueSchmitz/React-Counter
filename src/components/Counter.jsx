@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react'
 import style from './Counter.module.css'
-import arrowLeft from '../img/icons/left-arrow.png'
-import arrowRight from '../img/icons/right-arrow.png'
+import arrowLeft from '../img/left-arrow.png'
+import arrowRight from '../img/right-arrow.png'
 
 export function Counter() {
 
-  // useStates
+  // useStates variables
   const [number, setNumber] = useState(0)
   const [isDesktop, setDesktop] = useState(window.innerWidth > 1100)
 
-  // Function counter
+  // Function count, for the counter
   function count(type) {
 
     if (type === 1) {
@@ -21,7 +21,7 @@ export function Counter() {
       }
     }
     
-  // Check the window size
+  // Check the window size for the rendering
   const updateMedia = () => {
     setDesktop(window.innerWidth > 1100);
   }
@@ -31,6 +31,7 @@ export function Counter() {
     return () => window.removeEventListener("resize", updateMedia);
   })
 
+  // The html return
   return  (
     <>
       {isDesktop ? (
