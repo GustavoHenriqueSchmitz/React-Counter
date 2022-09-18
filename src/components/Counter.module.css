@@ -9,8 +9,9 @@
   
 .arrows {
   height: 50%;
-  width: 40%;
-  min-width: 280px;
+  width: 55%;
+  min-width: 150px;
+  min-height: 70px;
   cursor: pointer;
 }
   
@@ -23,7 +24,25 @@
   font-size: calc(10px + 6vmin);
   margin: 0 8%;
   height: 70%;
-  width: 50%;
-  min-width: 376px;
+  width: 60%;
+  min-width: 260px;
   border-radius: 80%;
+}
+
+@media (max-width: 1100px) {
+
+  #counter {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 1fr;
+  }
+
+  #arrowsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    }
+
+    #counterArea {
+      margin: 0;
+    }
 }

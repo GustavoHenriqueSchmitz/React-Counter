@@ -7,11 +7,6 @@ header {
   height: 32%;
 }
 
-#reactIcon {
-  min-height: 200px;
-  min-width: 90px;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   
     #reactIcon {
@@ -29,11 +24,20 @@ header {
 }
 
 h1 {
-    font-size: calc(10px + 6vmin);
+    font-size: calc(10px + 5vmin);
 }
 
 #reactIcon {
     height: 75%;
     width: 35%;
-    min-width: 247px;
+    min-height: 80px;
+    min-width: 100px;
+}
+
+@media (max-width: 1100px) {
+
+  #reactIcon {
+    height: 39%;
+    width: 24%;
+  }
 }

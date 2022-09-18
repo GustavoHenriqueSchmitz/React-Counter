@@ -47,7 +47,7 @@ export function Counter() {
           <div id={style.counterArea}>
             <p>{number}</p>
           </div>
-          <div>
+          <div id={style.arrowsContainer}>
             <img className={style.arrows} onClick={ () => count(2)} src={arrowLeft} alt='Flecha apontando para a esquerda.'></img>
             <img className={style.arrows} onClick={ () => count(1)} src={arrowRight} alt='Flecha apontando para a direita.'></img>
           </div>
