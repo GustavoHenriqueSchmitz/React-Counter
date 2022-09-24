@@ -9,9 +9,7 @@
   
 .arrows {
   height: 50%;
-  width: 55%;
-  min-width: 150px;
-  min-height: 70px;
+  width: 75%;
   cursor: pointer;
 }
   
@@ -25,7 +23,7 @@
   margin: 0 8%;
   height: 70%;
   width: 60%;
-  min-width: 260px;
+  min-width: 360px;
   border-radius: 80%;
 }
 
@@ -33,16 +31,42 @@
 
   #counter {
     grid-template-columns: 1fr;
-    grid-template-rows: 60% 1fr;
+    grid-template-rows: 60% 40%;
   }
 
   #arrowsContainer {
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    }
+  }
 
-    #counterArea {
-      margin: 0;
-    }
+  #counterArea {
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    width: 40%;
+    min-height: 300px;
+    min-width: 360px;
+  }
+
+  .arrows {
+    height: 75%;
+    width: 25%;
+    min-width: 250px;
+    min-height: 90px;
+  }
+}
+
+@media (max-width: 590px) {
+  #counterArea {
+    min-height: 220px;
+    min-width: 290px;
+  }
+
+  .arrows {
+    height: 55%;
+    width: 10%;
+    min-width: 180px;
+  }
 }

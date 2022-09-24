@@ -7,6 +7,17 @@ header {
   height: 32%;
 }
 
+h1 {
+  font-size: calc(10px + 5vmin);
+}
+
+#reactIcon {
+  height: 75%;
+  width: 35%;
+  min-height: 170px;
+  min-width: 210px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   
     #reactIcon {
@@ -23,21 +34,24 @@ header {
     }
 }
 
-h1 {
-    font-size: calc(10px + 5vmin);
-}
-
-#reactIcon {
-    height: 75%;
-    width: 35%;
-    min-height: 80px;
-    min-width: 100px;
-}
-
 @media (max-width: 1100px) {
 
   #reactIcon {
     height: 39%;
     width: 24%;
+  }
+}
+
+@media (max-width: 750px) {
+  #reactIcon {
+    min-height: 130px;
+    min-width: 160px;
+  }  
+}
+
+@media (max-width: 590px) {
+  #reactIcon {
+    min-height: 90px;
+    min-width: 120px;
   }
 }
