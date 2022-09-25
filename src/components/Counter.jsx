@@ -12,14 +12,14 @@ export function Counter() {
   // Function count, for the counter
   function count(type) {
 
-    if (type === 1) {
-        setNumber(number + 1)
-      }
-
-    else if (type === 2) {
-        setNumber(number - 1)
-      }
+    if (type === 1 && number < 9999999) {
+      setNumber(number + 1)
     }
+
+    else if (type === 2 && number > -9999999) {
+      setNumber(number - 1)
+    }
+  }
     
   // Check the window size for the rendering
   const updateMedia = () => {
