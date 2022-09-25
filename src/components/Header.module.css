@@ -51,7 +51,8 @@ h1 {
 
 @media (max-width: 590px) {
   #reactIcon {
+    height: 36%;
     min-height: 70px;
-    min-width: 100px;
+    min-width: 110px;
   }
 }
