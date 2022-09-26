@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-@media (min-height: 650px) {
+@media (min-height: 600px) {
   #counter-container {
     height: 100vh;
   }
