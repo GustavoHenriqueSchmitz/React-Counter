@@ -1,7 +1,7 @@
 # React Counter
 
 ## About the project
-"A counter made in React. It was one of my first projects in React, so the objective was to understand and practice the technology. It includes only the functionalities of addition and subtraction.
+A counter made in React. It was one of my first projects in React, so the objective was to understand and practice the technology. It includes only the functionalities of addition and subtraction.
 
 ## Used technologies
 - React
